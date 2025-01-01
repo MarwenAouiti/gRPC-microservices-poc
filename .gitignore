@@ -1,0 +1,22 @@
+# Rust
+/rust-inventory-service/target
+**/*.rs.bk
+
+# Spring Boot
+/spring-boot-orderservice/build/
+/spring-boot-orderservice/.gradle/
+/spring-boot-orderservice/.idea/
+/spring-boot-orderservice/out/
+/spring-boot-orderservice/.settings/
+/spring-boot-orderservice/.classpath
+/spring-boot-orderservice/.project
+/spring-boot-orderservice/.factorypath
+/spring-boot-orderservice/.springBeans
+/spring-boot-orderservice/.sts4-cache
+/spring-boot-orderservice/bin/
+/spring-boot-orderservice/.apt_generated
+/spring-boot-orderservice/.nb-gradle/
+/spring-boot-orderservice/nbproject/private/
+/spring-boot-orderservice/nbbuild/
+/spring-boot-orderservice/dist/
+/spring-boot-orderservice/nbdist/

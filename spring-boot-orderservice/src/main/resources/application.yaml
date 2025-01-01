@@ -1,0 +1,8 @@
+server:
+  port: 8080  # Regular HTTP port
+spring:
+  application:
+    name: spring-boot-orderservice
+  grpc:
+    server:
+      port: 9090

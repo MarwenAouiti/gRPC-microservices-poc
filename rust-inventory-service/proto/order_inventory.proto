@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package orderinventory;
+
+// The service definition
+service InventoryService {
+  rpc CheckInventory (InventoryRequest) returns (InventoryResponse);
+}
+
+// Request message
+message InventoryRequest {
+  string orderId = 1;
+  string productId = 2;
+  int32 quantity = 3;
+}
+
+// Response message
+message InventoryResponse {
+  bool success = 1;         // true if enough inventory is available
+  string message = 2;       // success/failure detail
+}
